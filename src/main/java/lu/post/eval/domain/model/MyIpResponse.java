@@ -1,5 +1,5 @@
 package lu.post.eval.domain.model;
-
+ 
 public class MyIpResponse {
     private String myIp;
 
