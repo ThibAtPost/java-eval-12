@@ -7,4 +7,7 @@ import java.util.List;
 public interface IHTTMirrorClient {
 
     List<HeadersBO> mirrorMyGetHeaders();
+
+    String getMyIp();
+
 }
