@@ -9,14 +9,13 @@ import org.springframework.context.annotation.Configuration;
 ;
 
 @Configuration
-public class HTTBinAPIConfig {
+public class HTTBinAPIConfig  {
 
     @Bean
     public HttpMethodsApi httpMethodsApi() {
         return new HttpMethodsApi(new ApiClient());
     }
 
-    // TODO : use to get my IP from HTTPbin
     @Bean
     public RequestInspectionApi requestInspectionApi() {
         return new RequestInspectionApi(new ApiClient());
