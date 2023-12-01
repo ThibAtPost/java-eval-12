@@ -19,4 +19,8 @@ public class HTTPMirrorCaller {
     public List<HeadersBO> callGet() {
         return mirrorClient.mirrorMyGetHeaders();
     }
+
+    public String getOutgoingIp() {
+        return mirrorClient.getMyIp();
+    }
 }
